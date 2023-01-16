@@ -1,0 +1,51 @@
+
+@media screen and (max-width: 540px) {
+  main {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  math {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 1024px) {
+  main {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  math {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  main {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  math {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    font-size: 5rem;
+  }
+}
